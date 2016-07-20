@@ -1,0 +1,82 @@
+﻿/*body {
+background-image:url(../images/centennial.jpeg);
+background-size:contain;
+    background-repeat:no-repeat;
+}*/
+
+body,div,p,ul,li {
+    padding:0;
+    margin:0;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.wrapper{
+    width:1558px;
+    margin:auto;
+    height: 621px;
+}
+.content{
+
+    width:100px;
+    border: 1px ;
+    border-radius:5px 5px 5px 5px;
+    float:left;
+    margin-top:8px;
+    margin-bottom: 8px;
+    min-height:400px;
+    background-color:antiquewhite;
+}
+.options {
+width:100%;
+margin:0px 0px 10px;
+padding:0px;
+height:40px;
+}
+.navigation_Option1{
+    border-left:0px;
+    border-radius:5px 0 0 5px;
+}
+.navigationItem {
+float:left;
+border-right: 1px solid;
+border-left: 1px solid;
+height:40px;
+}
+.options ul {    height: 43px;
+}
+.options ul li{
+    float:left;
+    display:block;
+    list-style:none;
+    border-right:1px solid;
+    border-left: 1px solid;
+}
+.options ul li.navigation_Option1:hover{
+    border-radius:5px 0px 0px 5px;
+}
+.options ul li a
+{
+    font-size: 14px;
+    font-weight:bold;
+    line-height:40px;
+    padding:8px 20px;
+}
+.options ul li:hover{
+    border-right: 1px solid;
+}
+.footer{
+    height:40px;
+    border-radius:5px 5px 5px 5px;
+}
+.footer h2{
+    font-size:14px;
+    color:darkblue;
+    font-family:'Lucida Calligraphy';
+    align-content:center;
+}
+.clear {
+clear:both;
+}
+
+
